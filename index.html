@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'> 
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <div class="pag__background">
+        <div class="pag__hero">
+            <header>
+                <!--NAVBAR-->
+                <div class="header__logo">
+                    <img src="./assets/imgs/logo.svg" alt="">
+                </div>
+                <div class="header__menu">
+                    <div class="header__menu-left">
+                        <ul>
+                            <li>Início</li>
+                            <li>Séries</li>
+                            <li>Filmes</li>
+                            <li>Bombando</li>
+                            <li>Minha Lista</li>
+                        </ul>
+                    </div>
+                    <div class="header__menu-right">
+                        <ul>
+                            <li><i class='bx bx-search'></i></li>
+                            <li><i class='bx bxs-bell'></i></li>
+                            <li>
+                                <img src="./assets/imgs/user.svg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <!--Banner start-->
+                <div class="banner">
+                    <img class="banner__poster" src="./assets/imgs/banner-title.svg" alt="">
+                    <span class="banner__text">Em uma penitenciária de última geração, um detento 
+                        participa de um experimento com drogas que controlam as emoções para um 
+                        gênio da indústria farmacêutica.
+                    </span>
+
+                    <div class="banner__btn">
+                        <button type="submit" class="banner__btn-play">
+                            <i class='bx bx-play'></i> Assistir
+                        </button>
+                        <button type="submit" class="banner__btn-info">
+                            <i class='bx bx-info-circle'></i> Mais informações
+                        </button>
+                    </div>
+                </div>
+                <!--Banner end-->
+                <div class="categoria">
+                    <p class="categoria__title">Minha Lista</p>
+                    <section>
+                        <div class="item -animation">
+                            <img src="./assets/imgs/minha-lista/poster01.svg" alt="">
+                        </div>
+                        <div class="item -animation">
+                            <img src="./assets/imgs/minha-lista/poster02.svg" alt="">
+                        </div>
+                        <div class="item -animation">
+                            <img src="./assets/imgs/minha-lista/poster03.svg" alt="">
+                        </div>
+                        <div class="item -animation">
+                            <img src="./assets/imgs/minha-lista/poster04.svg" alt="">
+                        </div>
+                        <div class="item -animation">
+                            <img src="./assets/imgs/minha-lista/poster05.svg" alt="">
+                        </div>
+                    </section>
+                </div>
+                <div class="categoria">
+                    <p class="categoria__title">Em Alta</p>
+                    <section>
+                        <div class="item -animation">
+                            <img src="./assets/imgs/em-alta/poster01.svg" alt="">
+                        </div>
+                        <div class="item -animation">
+                            <img src="./assets/imgs/em-alta/poster02.svg" alt="">
+                        </div>
+                        <div class="item -animation">
+                            <img src="./assets/imgs/em-alta/poster03.svg" alt="">
+                        </div>
+                        <div class="item -animation">
+                            <img src="./assets/imgs/em-alta/poster04.svg" alt="">
+                        </div>
+                        <div class="item -animation">
+                            <img src="./assets/imgs/em-alta/poster05.svg" alt="">
+                        </div>
+                    </section>
+                </div>
+                <div class="categoria">
+                    <p class="categoria__title">Recomendados para Taci</p>
+                    <div class="wrapper">
+                        <section id="section1">
+                            <a href="#section3" class="arrow__btn"></a>
+
+                            <div class="item -animation -animation">
+                                <img src="./assets/imgs/series/poster01.svg" alt="">
+                            </div>
+
+                            <div class="item -animation">
+                                <img src="./assets/imgs/series/poster02.svg" alt="">
+                            </div>
+
+                            <div class="item -animation">
+                                <img src="./assets/imgs/series/poster03.svg" alt="">
+                            </div>
+
+                            <!--<div class="item -animation">
+                                <img src="./assets/imgs/series/poster04.svg" alt="">
+                            </div>-->
+
+                            <div class="item -animation">
+                                <img src="./assets/imgs/series/poster05.svg" alt="">
+                            </div>
+
+                            <div class="item -animation">
+                                <img src="./assets/imgs/series/poster06.svg" alt="">
+                            </div>
+                            <a href="#section2" class="arrow__btn"><i class='bx bxs-chevron-right'></i></a>
+                        </section>
+                        <section id="section2">
+                            <a href="#section1" class="arrow__btn"><i class='bx bxs-chevron-left'></i></a>
+                            
+                            <!--<div class="item -animation">
+                                <img src="./assets/imgs/series/poster07.svg" alt="">
+                            </div>-->
+                            
+                            <div class="item -animation">
+                                <img src="./assets/imgs/series/poster08.svg" alt="">
+                            </div>
+                            
+                            <div class="item -animation">
+                                <img src="./assets/imgs/series/poster09.svg" alt="">
+                            </div>
+                            
+                            <div class="item -animation">
+                                <img src="./assets/imgs/series/poster10.svg" alt="">
+                            </div>
+                            
+                            <div class="item -animation">
+                                <img src="./assets/imgs/series/poster11.svg" alt="">
+                            </div>
+                            
+                            <div class="item -animation">
+                                <img src="./assets/imgs/series/poster12.svg" alt="">
+                            </div>
+                            <a href="#section3" class="arrow__btn"><i class='bx bxs-chevron-right'></i></a>
+                        </section>
+                        <section id="section3">
+                            <a href="#section2" class="arrow__btn"><i class='bx bxs-chevron-left'></i></a>
+                            
+                            <!--<div class="item -animation">
+                                <img src="./assets/imgs/series/poster13.svg" alt="">
+                            </div>-->
+                            
+                            <div class="item -animation">
+                                <img src="./assets/imgs/series/poster14.svg" alt="">
+                            </div>
+                            
+                            <div class="item -animation">
+                                <img src="./assets/imgs/series/poster15.svg" alt="">
+                            </div>
+                            
+                            <div class="item -animation">
+                                <img src="./assets/imgs/series/poster16.svg" alt="">
+                            </div>
+                            
+                            <div class="item -animation">
+                                <img src="./assets/imgs/series/poster17.svg" alt="">
+                            </div>
+                            
+                            <div class="item -animation">
+                                <img src="./assets/imgs/series/poster18.svg" alt="">
+                            </div>
+                            <a href="#section1" class="arrow__btn"><i class='bx bxs-chevron-right'></i></a>
+                        </section>
+                    </div>
+                </div>
+            </main>
+
+            <footer>
+                <div class="redes-sociais">
+                    <i class='bx bxl-facebook-square'></i>
+                    <i class='bx bxl-instagram-alt'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-youtube'></i>
+                </div>
+                <div class="links-content">
+                    <div class="links-content__info">
+                        <ul>
+                            <li>Idioma e Legendas</li>
+                            <li>Imprensa</li>
+                            <li>Privacidade</li>
+                            <li>Entre em contato</li>
+                        </ul>
+                        <ul>
+                            <li>Audiodescrição</li>
+                            <li>Relações com investidores</li>
+                            <li>Avisos Legais</li>
+                        </ul>
+                        <ul>
+                            <li>Centro de Ajuda</li>
+                            <li>Carrreiras</li>
+                            <li>Preferência de Cookies</li>
+                        </ul>
+                        <ul>
+                            <li>Cartão Pré-pago</li>
+                            <li>Termos de Uso</li>
+                            <li>Informações Corporativas</li>
+                        </ul>
+                    </div>
+                    <div class="links-content__service">
+                        <button class="links-content__service-code">Código do Serviço</button>
+                    </div>
+                    <div class="links-content__copy">
+                        <span>&copy; 1997-2022 Netflix, Inc.&nbsp;&nbsp;&lrm;</span>
+                        <span>&copy; 2022. Desenvolvido por Taciara.</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
